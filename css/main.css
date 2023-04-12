@@ -1,0 +1,89 @@
+body,
+html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+
+/* Phone */
+@media (max-width: 600px) {
+  body {
+    background: #ffb2cc;
+  }
+
+  h1 {
+    background: #b0ffeb;
+    color: #7b7d70;
+  }
+
+  h2 {
+    background: #ffffff;
+    color: #4eafb8;
+  }
+
+  p {
+    background: #b0ffeb;
+    color: #ff8641;
+  }
+}
+
+
+/*Tablet*/
+@media (min-width: 601px) {
+    body {
+    background: #b0ffeb;
+  }
+  
+  h1 {
+    background: #ffffff;
+    color: #02cbd2;
+  }
+
+  h2 {
+    background: #8bff91;
+    color: #fcc02a;
+  }
+
+  p {
+    background: #8bff91;
+    color: #7b8f8e;
+  }
+}
+
+
+
+/*Desktop*/
+@media (min-width: 769px) {
+  body {
+    background: #8bff91;
+  }
+  
+  h1 {
+    background: #ffb2cc;
+    color: #6e4b61;
+  }
+
+  h2 {
+    background: #ffb2cc;
+    color: #cabd61;
+  }
+
+  p {
+    background: #ffffff;
+    color: #c19e74;
+  }
+}
